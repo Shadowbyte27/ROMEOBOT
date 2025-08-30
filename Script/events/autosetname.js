@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "autosetname",
 	eventType: ["log:subscribe"],
 	version: "1.0.3",
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "『🎧এꔰꜛ.𝗥𝗢𝗠𝗘𝗢.ꜛꗄꔰ🪶🧘🏻‍♂️』",
 	description: "Automatically set new member nicknames"
 };
 
