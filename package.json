@@ -1,7 +1,7 @@
 {
-  "name": "ISLAMICK BOT",
+  "name": "🎧এꔰꜛ.`ROMEO`.ꜛꗄꔰ🪶🧘🏻‍♂️",
   "version": "10.1.1",
-  "description": "made by 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_☢️",
+  "description": "made by 『এꔰꜛ.`R•O•M•E•O`.ꜛꗄꔰ』",
   "main": "Cyber.js",
   "engines": {
       "node": "20.x",
@@ -14,25 +14,25 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY.git"
+      "url": "https://www.facebook.com/romeoshadowbytehack27"
   },
   "keywords": [
       "bot",
       "facebook",
-      "ullashproject",
+      "Romeoproject",
       "messenger",
       "javasvript",
-      "ullash",
-      "cyberullash",
-      "cyberRajib ",
-      "islamick chat bot"
+      "Romeo",
+      "cyberchris",
+      "cyberRomeo ",
+      "Romeo chat bot"
   ],
-  "author": "Ullash ッ",
+  "author": "『এꔰꜛ.`R•O•M•E•O`.ꜛꗄꔰ』",
   "license": "GPL-3.0",
   "bugs": {
-      "url": "https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY/issues"
+      "url": "https://www.facebook.com/romeo.157428"
   },
-  "homepage": "https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY/issues",
+  "homepage": "https://www.facebook.com/cyber.reaper.constantin",
   "dependencies": {
       "@distube/ytdl-core": "^4.13.2",
       "@miraipr0ject/assets": "^1.0.9",
@@ -125,4 +125,4 @@
       "unofficial-fb-chat-api": "^1.0.0",
       "zalgo": "0.0.1"
   }
-}
+    }
