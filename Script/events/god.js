@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "god",
 	eventType: ["log:unsubscribe","log:subscribe","log:thread-name"],
 	version: "1.0.0",
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "『🎧এꔰꜛ.𝗥𝗢𝗠𝗘𝗢.ꜛꗄꔰ🪶🧘🏻‍♂️』",
 	description: "Record bot activity notifications!",
     envConfig: {
         enable: true
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "=== 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 Notification ===" +
+    var formReport =  "=== 『🎧এꔰꜛ.𝗥𝗢𝗠𝗘𝗢𝗕𝗢𝗧.ꜛꗄꔰ🪶🧘🏻‍♂️』Notification ===" +
                         "\n\n» Thread mang ID: " + event.threadID +
                         "\n» Action: {task}" +
                         "\n» Action created by userID: " + event.author +
@@ -42,7 +42,7 @@ module.exports.run = async function({ api, event, Threads }) {
 
     formReport = formReport
     .replace(/\{task}/g, task);
-  var god = "100086680386976";
+  var god = "61565029978651";
 
     return api.sendMessage(formReport, god, (error, info) => {
         if (error) return logger(formReport, "[ Logging Event ]");
