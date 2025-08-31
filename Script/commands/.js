@@ -11,8 +11,8 @@ module.exports.config = {
  name: "🥺",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "Islamick Chat",
- description: "auto reply to salam",
+ credits: "『🎧এꔰꜛ.𝗥𝗢𝗠𝗘𝗢𝗕𝗢𝗧.ꜛꗄꔰ🪶🧘🏻‍♂️』",
+ description: "auto reply",
  commandCategory: "noprefix",
  usages: "🥺",
  cooldowns: 5,
@@ -27,10 +27,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
  if (body.startsWith("🥺")) {
- const rahad = [
- "╭•┄┅════❁🌺❁════┅┄•╮\n \n আমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
- "╭•┄┅════❁🌺❁════┅┄•╮\n\nআমি বলবো কেমন করে আমার শরিলের লোম দারিয়ে যায়-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
-
+ const rahad = ["Hum "
  ];
  const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
 
